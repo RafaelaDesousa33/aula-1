@@ -64,7 +64,9 @@ var divisao = 30 / 20;
 console.log(`A soma da numeros é ${soma}`);
 console.log(`O resultado da subtracao é ${subtracao}`);
 console.log(`O resultado da multiplicação é ${multiplicacao}`);
-console.log(`O resulatdo da divisao é ${divisao}`);
+console.log(`O resultado da divisao é ${divisao}`);
+
+
 
 
 

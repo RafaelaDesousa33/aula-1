@@ -1,0 +1,99 @@
+<!doctype html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="titulos">
+        <h1>Cadastro</h1>
+        <h4>Complete com suas informações </h4>
+    </div>
+
+    <div class="dados">
+        <form>
+            <label for="nome"> Nome:
+                <input type="text" id="nome">
+
+            </label>
+
+            <label for="Email"> Email:
+                <input type="email" id="email">
+
+            </label>
+
+            <br> <br>
+
+            <label for="Sobrenome"> Sobrenome:
+                <input type="text" id="sobrenome">
+
+            </label>
+        </form>
+
+    </div>
+
+
+    <div class="linguagem">
+        <h3>De qual aplicação você desenvolve? </h3>
+    
+        <label>
+            <input type="radio" name="front-end" value="Front-end"> Front-end
+            <br>
+            <input type="radio" name="back-end" value="Back-end"> Back-end
+            <br>
+            <input type="radio" name="full-stack" value="Full-Stack"> Full-Stack
+        </label>
+
+    </div>
+
+<h4>Senioridade</h4>
+    <div class="senior">
+        <select>
+            <option>
+                basico
+            </option>
+
+            <option>
+                intermediario
+            </option>
+
+            <option>
+                avançado
+            </option>
+        </select>
+    </div>
+
+
+    <div class="linguagem">
+        <h4>
+            selecione as tecnologias que utiliza:
+        </h4>
+
+        <label>
+            <input type="checkbox" name="linguagem" value="HTML"> HTML
+            <input type="checkbox" name="linguagem" value="CSS"> CSS
+            <input type="checkbox" name="linguagem" value="JavaScript"> JavaScript
+            <input type="checkbox" name="linguagem" value="PHP"> PHP
+            <input type="checkbox" name="linguagem" value="C#"> C#
+            <input type="checkbox" name="linguagem" value="Python"> Python
+            <input type="checkbox" name="linguagem" value="Java"> Java
+        </label>
+    </div>
+
+<h5>Conte um pouco de você : </h5>
+    <div class="area">
+        <textarea></textarea>
+    </div>
+
+    
+
+<div class="button">
+    <button>Enviar Formulario</button>
+</div>
+
+
+</html>
