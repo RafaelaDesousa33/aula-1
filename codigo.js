@@ -66,6 +66,30 @@ console.log(`O resultado da subtracao é ${subtracao}`);
 console.log(`O resultado da multiplicação é ${multiplicacao}`);
 console.log(`O resultado da divisao é ${divisao}`);
 
+//
+
+var readline = require('readline-sync')
+
+
+var numero = readline.questionFloat("Digite um numero:")
+var numero2 = readline.questionFloat("Digite outro numero:")
+var nome3 = readline.question("Digite seu nome:")
+var sobrenome = readline.question("Digite seu sobrenome:")
+var email = readline.questionEMail("Digite seu email:")
+
+var soma = numero + numero2
+
+
+
+  
+console.log(` Obrigado pela atenção!`)
+
+
+
+
+
+
+
 
 
 

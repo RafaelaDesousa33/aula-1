@@ -1,0 +1,36 @@
+.box{
+    background: pink; 
+    color : #fff; 
+    font-weight: bold;
+    padding: 30px;
+    margin: 100px;
+}
+
+.box2{
+    background: palevioletred;
+    color: azure;
+    font-weight: lighter;
+    padding: 30px;
+    margin: 100px;
+}
+
+body{
+    background: rgb(180, 180, 182);
+}
+
+.cachorro{
+    text-align: center;
+    margin: 100px;
+    border-bottom: 300px;
+    border-color: pink;
+    
+    
+    
+}
+
+
+.gatos{
+    text-align: center;
+    margin-top: 1px;
+    padding: 1px;
+}
